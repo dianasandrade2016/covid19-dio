@@ -10,7 +10,7 @@ function getCountry(country) {
   return fetch(`${path}/${country}`, headers)
     .then((response) => response.json())
 }
-
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   getCountry
 };
